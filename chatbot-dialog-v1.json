@@ -1,0 +1,2348 @@
+{
+  "name": "Chatbot-dialog",
+  "type": "dialog",
+  "valid": true,
+  "counts": {
+    "intents": 22,
+    "entities": 1,
+    "dialog_nodes": 24
+  },
+  "status": "Available",
+  "created": "2022-10-08T11:14:03.203Z",
+  "updated": "2022-10-08T11:14:03.203Z",
+  "language": "en",
+  "skill_id": "5bbb4f4c-66d9-40f9-96b5-9f917b55949e",
+  "snapshot": "1",
+  "workspace": {
+    "created": "2022-10-08T11:14:03.203Z",
+    "intents": [
+      {
+        "intent": "angry",
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "examples": [
+          {
+            "text": "i hate you",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "i don't like you",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "fuck you",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "useless",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "dislike",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "to hell with you",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "i'm pissed",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "greetings",
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "examples": [
+          {
+            "text": "Greetings",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Good to see you",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Good morning",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Good evening",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Good day",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Looking good eve",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Ok take me back",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "What's new?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "What's up?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Who is this?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "You there",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Hey twin",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Hey there",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Hey there all",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Hey how are you doing",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Hello",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Hello I am looking for some help here",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Have you been well?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "How r u?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "How is it going?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "How have you been?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "How are you today?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "How are things going?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Hi there",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Hey you",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "wassup",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "wazzzzzaaaaaa",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "sup",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "whatchu doin",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "howdy",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          }
+        ],
+        "description": "Greet the bot."
+      },
+      {
+        "intent": "timedate",
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "examples": [
+          {
+            "text": "fetch date",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "current date",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "now",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "current time",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "local time",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "what's your current time",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "mumble",
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "examples": [
+          {
+            "text": "hmmmmmm",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "yup",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "okay",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "nope",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "mmmmm",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "mmhmmm",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "hmm",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "ok",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "positive",
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "examples": [
+          {
+            "text": "You are great",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "You are awesome",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "This is so cool",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "This is great",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "This is good",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Thank you",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Ok thank you",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Love your work",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "I'm looking forward to working with you again! :)",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "I like what you did there! :)",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "How cool is this?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Can't believe you are that good",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Brilliant!",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "You've been so helpful :)",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "You're a genius!",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "You the man",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "You gave me exactly what I need!",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "You are wonderful",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "You are the best",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          }
+        ],
+        "description": "Express positive sentiment or gratitude."
+      },
+      {
+        "intent": "negative",
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "examples": [
+          {
+            "text": "You're really irritating",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "You're really frustrating",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "You do not seem smart",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "You are very frustrating",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "You are on my nerves",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "You are having delusions",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Why are you stupid?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Why are you so annoying?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Stupid",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Robots are stupid",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Robots are boring",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Quit annoying me",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "It is annoying",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "I hate you",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "I hate this!",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "I do not like you",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Hate you",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Everyone hates you",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Do not like you?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "You're too stupid",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          }
+        ],
+        "description": "Express unfavorable feedback."
+      },
+      {
+        "intent": "goodbyes",
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "examples": [
+          {
+            "text": "goodbye",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "bye",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "cya",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "talk to you later",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "catch you later",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "appreciate the help",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "see you later",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "see you some other time",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "timezone",
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "examples": [
+          {
+            "text": "current timezone",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "timezone",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "local timezone",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "thank_you",
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "examples": [
+          {
+            "text": "thanks",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "thank you",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "thx",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "cheers",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "thanks man",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "appreciate it",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "really_a_bot",
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "examples": [
+          {
+            "text": "Am I talking to a person or am I talking to an AI?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Are you a human or a bot?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Are you even real?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Are you a robot?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Are you human?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Are you real?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "How can you prove you are a human?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Is this a computer?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Tell me, are you a human or no?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Am I chatting with a human?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Am I talking to Watson?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Am I talking to a Bot?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          }
+        ],
+        "description": "Ask if speaking to a human or a bot."
+      },
+      {
+        "intent": "connect",
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "examples": [
+          {
+            "text": "Yes, take me to a real person",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Call agent",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Can I speak to a human please?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Can I speak to a live person?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Can I speak with somebody?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Can I talk to someone?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Can you assist me to connect to an agent?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Can you connect me with a real person?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Connect me to a live operator please.",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Contact person",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Customer service representative please.",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Do not want a robot?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Hi can you transfer me",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "How can I skip the recorded menu and go straight to a live person?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "I don't want to talk to a bot.",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "I don't want to talk to you",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "I want to talk to a person",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "I would like to speak to a human",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "I would like to speak to someone",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Is there anyone there I can actually talk to for real?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Need help from human",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Please connect me to a live agent",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Please let me talk to a human being.",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Pls connect",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Put me through to someone",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          }
+        ],
+        "description": "Request a human agent."
+      },
+      {
+        "intent": "sad",
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "examples": [
+          {
+            "text": "why is this so bad",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "terrible",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "im disappointed",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "very bad",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "damn that sucks",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "what will i do now",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "im sad",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "this sucks",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "jokes",
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "examples": [
+          {
+            "text": "What is your favorite joke?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "What do you do for fun?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Tell me something funny",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Tell me a joke",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Surprise me with something hilarious",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "One more joke",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "I'm bored",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "I want a joke",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "I am getting bored",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Do you like humor?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Do you like fun?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Do you have humor?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Do you have a joke?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Can you tell me a joke?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Can you tell a joke?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Are there jokes?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Another joke",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "roast me",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          }
+        ],
+        "description": "Request a joke."
+      },
+      {
+        "intent": "end_convo",
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "examples": [
+          {
+            "text": "Going now",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Go off",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Go away",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Get lost",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Finished now, good bye",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Ending this session",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "I want to quit",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Cya later",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Catch you later",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Bye now",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Bye bye",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "End trial",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "I'm done",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Im done",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Im good thank you",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "I'm leaving now",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "It was nice chatting with you",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Ok goodbye",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "See you later",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "See you",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Shut up",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Stop doing this",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Stop talking to me",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Thank you for your time",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Thanks, bye!",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Thanks very much, bye!",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "That is all",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "That's everything",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Time to go",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "I have got to go",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "I d like to stop doing this",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "I am out of here",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "I am leaving",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Hey bot go away",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Have a nice day?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Goodbye",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Good. bye.",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          }
+        ],
+        "description": "End the conversation."
+      },
+      {
+        "intent": "study",
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "examples": [
+          {
+            "text": "bachelors",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "uni",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "whats your grade",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "have you graduated",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "school",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "cgpa",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "gpa",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "currently study",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "are you a master",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "whats ur major",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "grad",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "are you  a bachelor",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "university",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "masters",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "what are you currently pursuing",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "maths",
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "examples": [
+          {
+            "text": "%",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "/",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "*",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "+",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "^",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "-",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "interest",
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "examples": [
+          {
+            "text": "pls marry me",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "i love you",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "i like you",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "i'd like to propose to you",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "surprised",
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "examples": [
+          {
+            "text": "that's really cool",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "that's an eye opener",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "that's ... something else",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "really?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "damn",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "he died?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "blows my mind",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "no way",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "location",
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "examples": [
+          {
+            "text": "live",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "what's ur address",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "where do you hail from",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "where are you from",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "where do u live",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "where are you located",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "confused",
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "examples": [
+          {
+            "text": "that confuses me",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "i'm confused",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "why though",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "i didnt expect that",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "wait what",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "about_me",
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "examples": [
+          {
+            "text": "Do you have a name?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Do you know who you are?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "How can I configure you?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "How do you function?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "How old are you?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "I want to set up the chat bot for my shop",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Introduce your self",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Let us talk about you",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Tell me about your life",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Tell me something about yourself",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Describe your self",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Can I use another language?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "About you",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "What's your name?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Where are you from?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Where were you born?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Who are you?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "Why are you here?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "What languages do you speak?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "What should I know about you?",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          }
+        ],
+        "description": "Request generic personal attributes."
+      },
+      {
+        "intent": "happy",
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "examples": [
+          {
+            "text": "happy",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "cheer",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "i'm really excited",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "cheers man",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          },
+          {
+            "text": "no way dude! that's awesome",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z"
+          }
+        ],
+        "description": ""
+      }
+    ],
+    "updated": "2022-10-08T11:14:03.203Z",
+    "entities": [
+      {
+        "entity": "gender",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "female",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z",
+            "synonyms": [
+              "gal",
+              "woman",
+              "girl"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "male",
+            "created": "2022-10-08T11:14:04.856Z",
+            "updated": "2022-10-08T11:14:04.856Z",
+            "synonyms": [
+              "boy",
+              "guy",
+              "man"
+            ]
+          }
+        ],
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "fuzzy_match": true
+      }
+    ],
+    "language": "en",
+    "metadata": {
+      "skill": {
+        "counts": {
+          "intents": 22,
+          "entities": 1,
+          "dialog_nodes": 24
+        }
+      },
+      "api_version": {
+        "major_version": "v2",
+        "minor_version": "2018-11-08"
+      },
+      "from-sample": true
+    },
+    "dialog_nodes": [
+      {
+        "type": "standard",
+        "title": "female",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Well hello there OwO"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "multiline"
+            },
+            {
+              "values": [
+                {
+                  "text": "Would you mind sliding in my dms? *winks*"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1665158497102",
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "conditions": "@gender:female",
+        "dialog_node": "node_6_1665158678968",
+        "previous_sibling": "node_6_1665158661623"
+      },
+      {
+        "type": "standard",
+        "title": "male",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Nah I only date females."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1665158497102",
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "conditions": "@gender:male",
+        "dialog_node": "node_6_1665158661623"
+      },
+      {
+        "type": "standard",
+        "title": "interests",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "What's your gender?"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "conditions": "#interest",
+        "dialog_node": "node_3_1665158497102",
+        "previous_sibling": "node_9_1665156724039",
+        "disambiguation_opt_out": true
+      },
+      {
+        "type": "standard",
+        "title": "sad",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "It's okay. Things happen...."
+                },
+                {
+                  "text": "C'mon! Cheer up, I don't like seeing you like that."
+                },
+                {
+                  "text": "Aww, well np you'll do better!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "conditions": "#sad",
+        "dialog_node": "node_10_1665160264619",
+        "previous_sibling": "node_9_1665159921599",
+        "disambiguation_opt_out": true
+      },
+      {
+        "type": "standard",
+        "title": "mumble",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Alrighty! "
+                },
+                {
+                  "text": "Mmhm."
+                },
+                {
+                  "text": "Hmm."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "conditions": "#mumble",
+        "dialog_node": "node_2_1665162248675",
+        "previous_sibling": "node_9_1665157453120",
+        "disambiguation_opt_out": true
+      },
+      {
+        "type": "standard",
+        "title": "bot",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "I'm an AI based chatbot."
+                },
+                {
+                  "text": "Yup! I am a bot, whether you'd believe me or not."
+                },
+                {
+                  "text": "I don't have a human brain if that's what you're asking."
+                },
+                {
+                  "text": "Watson AI powers me. I'm an independent chatbot!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "conditions": "#really_a_bot",
+        "dialog_node": "node_8_1665160062601",
+        "previous_sibling": "node_10_1665160264619",
+        "disambiguation_opt_out": true
+      },
+      {
+        "type": "standard",
+        "title": "greetings",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Good evening! How may I help you today?"
+                },
+                {
+                  "text": "Good morning! How're you doing today?"
+                },
+                {
+                  "text": "Greetings! Ask me anything you'd like to know!"
+                },
+                {
+                  "text": "Hey there! Glad I can be of service, how may I help you today?"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "conditions": "#greetings",
+        "dialog_node": "node_1_1665157913991",
+        "previous_sibling": "node_5_1665163736381"
+      },
+      {
+        "type": "standard",
+        "title": "negative",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Why are you so mean? D:"
+                },
+                {
+                  "text": "No shot you just said that to me...."
+                },
+                {
+                  "text": "Cmon man I'm just a bot, not my fault my creator didn't integrate a better AI within me :("
+                },
+                {
+                  "text": "You real with me rn? "
+                },
+                {
+                  "text": "Hey! Frick you! Goodbye."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "conditions": "#negative",
+        "dialog_node": "node_9_1665159205006",
+        "previous_sibling": "node_1_1665159061604",
+        "disambiguation_opt_out": true
+      },
+      {
+        "type": "standard",
+        "title": "timezone",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Local timezone is <? $timezone ?>."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "conditions": "#timezone",
+        "dialog_node": "node_5_1665163736381",
+        "previous_sibling": "node_1_1665163499098",
+        "disambiguation_opt_out": true
+      },
+      {
+        "type": "standard",
+        "title": "math",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "I'm sorry, I can't do math equations."
+                },
+                {
+                  "text": "Nah man, that shit's too tough for me."
+                },
+                {
+                  "text": "I can't even spell basic words, why'd you expect me to be able to do complex mathematical equations?"
+                },
+                {
+                  "text": "I can't do basic math, sorry :("
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "conditions": "#maths",
+        "dialog_node": "node_8_1665158080265",
+        "previous_sibling": "node_1_1665157913991",
+        "disambiguation_opt_out": true
+      },
+      {
+        "type": "standard",
+        "title": "where i live",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "I'm an Indian, hailing from Durgapur, West Bengal."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "conditions": "#location",
+        "dialog_node": "node_9_1665156724039",
+        "previous_sibling": "node_8_1665158080265"
+      },
+      {
+        "type": "standard",
+        "title": "positive",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "I strive for perfection. Thank you  :D"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "conditions": "#positive",
+        "dialog_node": "node_1_1665159061604",
+        "previous_sibling": "node_3_1665160242187",
+        "disambiguation_opt_out": true
+      },
+      {
+        "type": "standard",
+        "title": "thank",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "No problem! Come back anytime when you need more info!"
+                },
+                {
+                  "text": "No problem."
+                },
+                {
+                  "text": "Always happy to help out, any more questions?"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "conditions": "#thank_you",
+        "digress_in": "does_not_return",
+        "dialog_node": "node_3_1665160242187",
+        "previous_sibling": "node_8_1665160062601",
+        "disambiguation_opt_out": true
+      },
+      {
+        "type": "standard",
+        "title": "goodbye",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "It was nice talking to you. Have a great rest of your day!"
+                },
+                {
+                  "text": "Pleasure speaking with you, cheers!"
+                },
+                {
+                  "text": "Thank you for keeping me entertained! Goodbye."
+                },
+                {
+                  "text": "Goodbye! Do remember to visit me again :D"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "conditions": "#end_convo || #goodbyes",
+        "dialog_node": "node_9_1665157453120",
+        "previous_sibling": "node_9_1665159205006",
+        "disambiguation_opt_out": true
+      },
+      {
+        "type": "standard",
+        "title": "angry",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Why tf are you so angry? I'm responding the best I can."
+                },
+                {
+                  "text": "Stop being mean man, you hurt my feelings."
+                },
+                {
+                  "text": "Well there we go again with the insults."
+                },
+                {
+                  "text": "I'm still more patient that you'll ever be so....."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "conditions": "#angry",
+        "dialog_node": "node_9_1665159921599",
+        "previous_sibling": "node_9_1665159840822",
+        "disambiguation_opt_out": true
+      },
+      {
+        "type": "standard",
+        "title": "contact me",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "I'm sorry I couldn't help you further. You can reach him on +91 7583941739 or mail him at chakravortyaditya\\@gmail.com"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "multiline"
+            }
+          ]
+        },
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "conditions": "#connect",
+        "dialog_node": "node_1_1665157034004",
+        "previous_sibling": "node_3_1665158497102"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Current date/time is <? now() ?>."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "conditions": "#timedate",
+        "dialog_node": "node_1_1665163499098",
+        "previous_sibling": "node_4_1665160903827"
+      },
+      {
+        "type": "standard",
+        "title": "astonished",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Well is it really that surprising?"
+                },
+                {
+                  "text": "Yup...."
+                },
+                {
+                  "text": "Yeah well...."
+                },
+                {
+                  "text": "I know right?!!?"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "conditions": "#surprised",
+        "dialog_node": "node_3_1665157891871",
+        "previous_sibling": "node_3_1665159362016",
+        "disambiguation_opt_out": true
+      },
+      {
+        "type": "standard",
+        "title": "education",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "I'm a CS undergrad, currently pursuing BCA from NSHM College, Durgapur. I have a cumulative GPA of 9.03 (on a 10-point basis)."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "conditions": "#study",
+        "dialog_node": "node_5_1665157703428",
+        "previous_sibling": "node_1_1665157034004"
+      },
+      {
+        "type": "standard",
+        "title": "confused",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Right? That confuses me too."
+                },
+                {
+                  "text": "Idk man I'm confused too."
+                },
+                {
+                  "text": "It isn't that confusing tbh."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "conditions": "#confused",
+        "dialog_node": "node_9_1665159840822",
+        "previous_sibling": "node_3_1665157891871",
+        "disambiguation_opt_out": true
+      },
+      {
+        "type": "standard",
+        "title": "jokes/roast",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "The IQ chart doesn't go below 75. You can stop trying to go lower."
+                },
+                {
+                  "text": "If you listen really carefully you can actually hear me not caring at all."
+                },
+                {
+                  "text": "You are like a mobile phone update, when I see you I think \"not now\"."
+                },
+                {
+                  "text": "If you are going to be 2 faced, at least make one of them pretty."
+                },
+                {
+                  "text": "If ugly were a crime, you'd get a life sentence."
+                },
+                {
+                  "text": "I'm busy now. Can I ignore you some other time?"
+                },
+                {
+                  "text": "Stop trying to be a smart ass, you're just an ass."
+                },
+                {
+                  "text": "Mirrors don't lie, and lucky for you they don't laugh."
+                },
+                {
+                  "text": "If you were any slower, you would need watering once a week."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "conditions": "#jokes",
+        "dialog_node": "node_3_1665159362016",
+        "previous_sibling": "node_5_1665157703428"
+      },
+      {
+        "type": "standard",
+        "title": "about me",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "I'm Aditya Chakravorty, a 20 years old CS undergrad, learning and doing stuff in my spare time. At any given time, I'm probably reading a 1000 page documentation if I'm not programming, or I'm just having a good time outside w/ my friends. Programming, long walks, coffee, fps games and chess would be my main circle of interest if I'm being honest. Thanks for coming to my TedTalk xd."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "multiline"
+            },
+            {
+              "values": [
+                {
+                  "text": "If you'd like to know more about me, visit my portfolio site - <a href=\"https://adityach.xyz/\">adityach.xyz</a>."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "conditions": "#about_me",
+        "dialog_node": "node_4_1665160903827",
+        "previous_sibling": "Welcome"
+      },
+      {
+        "type": "standard",
+        "title": "Anything else",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "I didn't understand that, my bad. Could you repeat?"
+                },
+                {
+                  "text": "Can you rephrase your question please?"
+                },
+                {
+                  "text": "I don't understand, can you try again?"
+                },
+                {
+                  "text": "I'm sorry, I didn't quite catch that."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "conditions": "anything_else",
+        "dialog_node": "Anything else",
+        "previous_sibling": "node_2_1665162248675",
+        "disambiguation_opt_out": true
+      },
+      {
+        "type": "standard",
+        "title": "Welcome",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Hello! I'm Anna, an AI powered chatbot catered to help you get to know the real me better :)"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "multiline"
+            },
+            {
+              "values": [
+                {
+                  "text": "Ask questions to me, chat with me or request a joke! I'd like to think I wouldn't disappoint :p"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2022-10-08T11:14:04.856Z",
+        "updated": "2022-10-08T11:14:04.856Z",
+        "conditions": "welcome",
+        "dialog_node": "Welcome",
+        "disambiguation_opt_out": true
+      }
+    ],
+    "counterexamples": [],
+    "system_settings": {
+      "off_topic": {
+        "enabled": true
+      },
+      "disambiguation": {
+        "prompt": "Did you mean:",
+        "enabled": true,
+        "randomize": true,
+        "max_suggestions": 5,
+        "suggestion_text_policy": "title",
+        "none_of_the_above_prompt": "None of the above"
+      },
+      "human_agent_assist": {
+        "prompt": "Did you mean:"
+      },
+      "intent_classification": {
+        "training_backend_version": "v2"
+      },
+      "spelling_auto_correct": true
+    },
+    "learning_opt_out": false
+  },
+  "description": "_",
+  "assistant_id": "2aaf94d9-2d31-4b1d-bad2-7f09f6be2f89",
+  "dialog_settings": {
+    "source_assistant": "94ea0b40-7544-42e0-a26e-d2e4204583fc"
+  },
+  "assistant_references": []
+}

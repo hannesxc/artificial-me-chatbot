@@ -1,0 +1,260 @@
+About you,about_me
+Can I use another language?,about_me
+Describe your self,about_me
+Do you have a name?,about_me
+Do you know who you are?,about_me
+How can I configure you?,about_me
+How do you function?,about_me
+How old are you?,about_me
+I want to set up the chat bot for my shop,about_me
+Introduce your self,about_me
+Let us talk about you,about_me
+Tell me about your life,about_me
+Tell me something about yourself,about_me
+What languages do you speak?,about_me
+What should I know about you?,about_me
+What's your name?,about_me
+Where are you from?,about_me
+Where were you born?,about_me
+Who are you?,about_me
+Why are you here?,about_me
+i hate you,angry
+fuck you,angry
+useless,angry
+dislike,angry
+to hell with you,angry
+i'm pissed,angry
+i don't like you,angry
+i'm confused,confused
+why though,confused
+i didnt expect that,confused
+wait what,confused
+that confuses me,confused
+Call agent,connect
+"Yes, take me to a real person",connect
+Put me through to someone,connect
+Please connect me to a live agent,connect
+Need help from human,connect
+Is there anyone there I can actually talk to for real?,connect
+I would like to speak to someone,connect
+I would like to speak to a human,connect
+I want to talk to a person,connect
+I don't want to talk to you,connect
+I don't want to talk to a bot.,connect
+How can I skip the recorded menu and go straight to a live person?,connect
+Hi can you transfer me,connect
+Do not want a robot?,connect
+Customer service representative please.,connect
+Contact person,connect
+Connect me to a live operator please.,connect
+Pls connect,connect
+Please let me talk to a human being.,connect
+Can you connect me with a real person?,connect
+Can you assist me to connect to an agent?,connect
+Can I talk to someone?,connect
+Can I speak with somebody?,connect
+Can I speak to a live person?,connect
+Can I speak to a human please?,connect
+I have got to go,end_convo
+Stop doing this,end_convo
+Shut up,end_convo
+See you,end_convo
+See you later,end_convo
+Ok goodbye,end_convo
+It was nice chatting with you,end_convo
+I'm leaving now,end_convo
+Im good thank you,end_convo
+Im done,end_convo
+I'm done,end_convo
+I want to quit,end_convo
+Stop talking to me,end_convo
+I d like to stop doing this,end_convo
+I am out of here,end_convo
+I am leaving,end_convo
+Hey bot go away,end_convo
+Go away,end_convo
+Get lost,end_convo
+"Finished now, good bye",end_convo
+Thank you for your time,end_convo
+"Thanks, bye!",end_convo
+"Thanks very much, bye!",end_convo
+That is all,end_convo
+That's everything,end_convo
+Time to go,end_convo
+Ending this session,end_convo
+End trial,end_convo
+Cya later,end_convo
+Catch you later,end_convo
+Bye now,end_convo
+Bye bye,end_convo
+Have a nice day?,end_convo
+Goodbye,end_convo
+Good. bye.,end_convo
+Going now,end_convo
+Go off,end_convo
+see you some other time,goodbyes
+see you later,goodbyes
+cya,goodbyes
+talk to you later,goodbyes
+catch you later,goodbyes
+appreciate the help,goodbyes
+goodbye,goodbyes
+bye,goodbyes
+You there,greetings
+How is it going?,greetings
+How have you been?,greetings
+How are you today?,greetings
+How are things going?,greetings
+Hi there,greetings
+Hey you,greetings
+Hey twin,greetings
+Hey there,greetings
+Hey there all,greetings
+Hey how are you doing,greetings
+Hello,greetings
+Hello I am looking for some help here,greetings
+Have you been well?,greetings
+Greetings,greetings
+Good to see you,greetings
+Good day,greetings
+howdy,greetings
+whatchu doin,greetings
+sup,greetings
+wazzzzzaaaaaa,greetings
+wassup,greetings
+Who is this?,greetings
+What's up?,greetings
+What's new?,greetings
+Ok take me back,greetings
+Looking good eve,greetings
+How r u?,greetings
+Good morning,greetings
+Good evening,greetings
+cheer,happy
+i'm really excited,happy
+happy,happy
+cheers man,happy
+no way dude! that's awesome,happy
+Another joke,jokes
+Tell me something funny,jokes
+What is your favorite joke?,jokes
+What do you do for fun?,jokes
+Are there jokes?,jokes
+Can you tell a joke?,jokes
+Can you tell me a joke?,jokes
+Do you have a joke?,jokes
+Do you have humor?,jokes
+Do you like fun?,jokes
+Do you like humor?,jokes
+I am getting bored,jokes
+I want a joke,jokes
+I'm bored,jokes
+One more joke,jokes
+Surprise me with something hilarious,jokes
+Tell me a joke,jokes
+what's ur address,location
+where do you hail from,location
+where are you from,location
+where do u live,location
+live,location
+where are you located,location
+^,maths
++,maths
+%,maths
+-,maths
+/,maths
+*,maths
+Robots are stupid,negative
+Robots are boring,negative
+You're really frustrating,negative
+You do not seem smart,negative
+You are very frustrating,negative
+You are on my nerves,negative
+You're too stupid,negative
+You're really irritating,negative
+Do not like you?,negative
+Everyone hates you,negative
+Hate you,negative
+I do not like you,negative
+I hate this!,negative
+I hate you,negative
+It is annoying,negative
+Quit annoying me,negative
+You are having delusions,negative
+Why are you stupid?,negative
+Why are you so annoying?,negative
+Stupid,negative
+Ok thank you,positive
+You've been so helpful :),positive
+You're a genius!,positive
+You the man,positive
+You gave me exactly what I need!,positive
+You are wonderful,positive
+You are the best,positive
+You are great,positive
+You are awesome,positive
+This is so cool,positive
+This is great,positive
+This is good,positive
+Thank you,positive
+Love your work,positive
+I'm looking forward to working with you again! :),positive
+I like what you did there! :),positive
+How cool is this?,positive
+Can't believe you are that good,positive
+Brilliant!,positive
+"Tell me, are you a human or no?",really_a_bot
+Are you a robot?,really_a_bot
+Are you a human or a bot?,really_a_bot
+Am I talking to a person or am I talking to an AI?,really_a_bot
+Am I talking to a Bot?,really_a_bot
+Am I talking to Watson?,really_a_bot
+Am I chatting with a human?,really_a_bot
+Is this a computer?,really_a_bot
+How can you prove you are a human?,really_a_bot
+Are you real?,really_a_bot
+Are you human?,really_a_bot
+Are you even real?,really_a_bot
+this sucks,sad
+very bad,sad
+im disappointed,sad
+terrible,sad
+why is this so bad,sad
+what will i do now,sad
+im sad,sad
+damn that sucks,sad
+cgpa,study
+school,study
+have you graduated,study
+whats your grade,study
+uni,study
+whats ur major,study
+are you a master,study
+currently study,study
+gpa,study
+grad,study
+are you  a bachelor,study
+university,study
+masters,study
+what are you currently pursuing,study
+bachelors,study
+blows my mind,surprised
+that's an eye opener,surprised
+that's ... something else,surprised
+really?,surprised
+damn,surprised
+he died?,surprised
+that's really cool,surprised
+no way,surprised
+appreciate it,thank_you
+thanks,thank_you
+thank you,thank_you
+thx,thank_you
+cheers,thank_you
+thanks man,thank_you
+what's your current time,timedate
+local time,timedate
+fetch date,timedate
+timezone,timedate
+current time,timedate
+current date,timedate
