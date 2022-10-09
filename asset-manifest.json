@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/artificial-me-chatbot/static/css/main.42ab6324.css",
+    "main.js": "/artificial-me-chatbot/static/js/main.95a685ad.js",
+    "static/media/background.webp": "/artificial-me-chatbot/static/media/background.7f5cb0fe8917dab81365.webp",
+    "index.html": "/artificial-me-chatbot/index.html",
+    "main.42ab6324.css.map": "/artificial-me-chatbot/static/css/main.42ab6324.css.map",
+    "main.95a685ad.js.map": "/artificial-me-chatbot/static/js/main.95a685ad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42ab6324.css",
+    "static/js/main.95a685ad.js"
+  ]
+}
