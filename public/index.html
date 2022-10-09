@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="website showcasing an AI chatbot" />
+    <meta name="author" content="hannesxc" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Artificial-Me</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+        This HTML file is a template.
+        If you open it directly in the browser, you will see an empty page.
+
+        You can add webfonts, meta tags, or analytics to this file.
+        The build step will place the bundled scripts into the <body> tag.
+
+        To begin the development, run `npm start` or `yarn start`.
+        To create a production bundle, use `npm run build` or `yarn build`.
+      -->
+    <script>
+      window.watsonAssistantChatOptions = {
+        integrationID: "a9788d7c-b7e1-481c-8fa5-7f8b96d4107f", // The ID of this integration.
+        region: "eu-de", // The region your integration is hosted in.
+        serviceInstanceID: "47fc0603-9ae8-41a5-a6e6-1bc3489906ba", // The ID of your service instance.
+        carbonTheme: 'g10', // Carbon theme
+        onLoad: function (instance) {
+          instance.updateCSSVariables({
+            '$hover-primary': '#000000',
+            '$interactive-01': '#6272a2'
+          });
+          instance.render();
+        }
+      };
+      setTimeout(function () {
+        const t = document.createElement('script');
+        t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+        document.head.appendChild(t);
+      });
+    </script>
+  </body>
+</html>
