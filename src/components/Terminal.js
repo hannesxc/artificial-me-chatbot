@@ -1,14 +1,14 @@
 import Terminal from 'react-console-emulator'
 import commands from './commands.js'
-import React from 'react'
+import { useState, useRef } from 'react'
 
 export default function Term() {
     const cmds = commands.commands
     const owrs = commands.overwrites
-    const terminal = React.createRef()
-    const [prompt, setPrompt] = React.useState('me@/hannesxc:~$ ')
-    const [home, sethome] = React.useState('hannesxc')
-    const [dir, setdir] = React.useState({
+    const terminal = useRef()
+    const [ prompt, setPrompt ] = useState('me@/hannesxc:~$ ')
+    const [ home, sethome]  = useState('hannesxc')
+    const [ dir, setdir ] = useState({
         'hannesxc': []
     })
     return (
@@ -84,8 +84,8 @@ export default function Term() {
                     usage: 'help',
                     fn: () => {
                         return `
-                            ${Object.keys(owrs).map(cmd => `${cmd}${" ".repeat(12-cmd.length)} | ${owrs[cmd].description}${" ".repeat(39-owrs[cmd].description.length)} | ${owrs[cmd].usage}`).join('\n')}
-                            ${Object.keys(cmds).map(cmd => `${cmd}${" ".repeat(12-cmd.length)} | ${cmds[cmd].description}${" ".repeat(39-cmds[cmd].description.length)} | ${cmds[cmd].usage}`).join('\n')}
+                            ${Object.keys(owrs).map(cmd => `${cmd}${" ".repeat(12-cmd.length)} | ${owrs[cmd].description}${" ".repeat(39-owrs[cmd].description.length)}`).join('\n')}
+                            ${Object.keys(cmds).map(cmd => `${cmd}${" ".repeat(12-cmd.length)} | ${cmds[cmd].description}${" ".repeat(39-cmds[cmd].description.length)}`).join('\n')}
                         `
                     }
                 },

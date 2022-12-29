@@ -58,13 +58,13 @@ export default {
             fn: () => {
                 return `
                     Languages I'm familiar with\n-------\n
-                    Python           - 80%
-                    C/C++            - 60%
-                    HTML5            - 90%
-                    CSS3             - 80%
-                    Javascript       - 50% [in progress]
-                    Java             - 40%
-                    React            - 40% [in progress]
+                    Python
+                    C/C++
+                    HTML5
+                    CSS3
+                    Javascript
+                    Java
+                    React
                 `
             }
         },
@@ -74,11 +74,11 @@ export default {
             fn: () => {
                 return `
                     Tools I'm familiar with\n-------\n
-                    Git              - 80%
-                    VSCode           - 90%
-                    IBM Cloud        - 50%
-                    AWS              - 50%
-                    Bash             - 30% [in progress]
+                    Git
+                    VSCode
+                    IBM Cloud
+                    AWS
+                    Bash
                 `
             }
         },
@@ -102,13 +102,15 @@ export default {
             fn: () => {
                 return `
                     Projects I've implemented till date\n-------\n
-                    DownpourChat       - (React, NodeJS, ExpressJS, socket.io, Redis)
-                    Artificial-Me      - (React, IBM Watson AI)
-                    Hannes&Co.         - (HTML, CSS, JS)
-                    To-Do List         - (React)
-                    Personal-Portfolio - (HTML, CSS, JS)
-                    Flipcrackt         - (HTML, CSS, JS)
-                    Calculator         - (HTML, CSS, JS)
+                    Aerum
+                    Rest-Up
+                    DownpourChat
+                    Artificial-Me
+                    Hannes & Co.
+                    To-Do List V2
+                    Personal-Portfolio
+                    Flipcrackt
+                    Calculator
                 `
             }
         },
